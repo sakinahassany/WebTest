@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>webtest</display-name>
+  
+  <servlet>
+  <servlet-name>ProcessOne</servlet-name>
+  <servlet-class>com.as.samples.ProcessOne</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ProcessOne</servlet-name>
+  <url-pattern>/ProcessOne</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>ProcessTwo</servlet-name>
+  <servlet-class>com.as.samples.ProcessTwo</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ProcessTwo</servlet-name>
+  <url-pattern>/ProcessTwo</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
+
+</element>
